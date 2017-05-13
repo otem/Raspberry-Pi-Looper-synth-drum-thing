@@ -15,15 +15,25 @@ You will need comport and shell externals in pd.
 
 Here is a list of the main hardware components used (left out some usb male/female connections, push buttons and audio output):
 Pi3: https://www.sparkfun.com/products/13825
+
 Teensy 3.6: https://www.sparkfun.com/products/14057
+
 Display: https://www.pjrc.com/store/display_ili9341.html
+
 Mux: https://www.sparkfun.com/products/9056
+
 Buttons: https://www.sparkfun.com/products/7835
+
 Button PCB (I drilled out holes where the leds go to use neopixels): https://www.sparkfun.com/products/8033
+
 NeoPixels: https://www.adafruit.com/product/1612
+
 Encoder: https://www.sparkfun.com/products/9117
+
 Pots: https://www.sparkfun.com/products/9940
+
 Slide Pots: https://www.sparkfun.com/products/11621
+
 Sound Card: https://www.sweetwater.com/store/detail/UCA222
 
 
