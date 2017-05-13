@@ -14,6 +14,7 @@ The Sessions directory is pointed to where it lives on my pi, you will need to c
 You will need comport and shell externals in pd.
 
 Here is a list of the main hardware components used (left out some usb male/female connections, push buttons and audio output):
+
 Pi3: https://www.sparkfun.com/products/13825
 
 Teensy 3.6: https://www.sparkfun.com/products/14057
