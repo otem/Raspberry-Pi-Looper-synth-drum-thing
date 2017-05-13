@@ -40,6 +40,8 @@ Slide Pots: https://www.sparkfun.com/products/11621
 
 Sound Card: https://www.sweetwater.com/store/detail/UCA222
 
+3D Model: http://www.thingiverse.com/thing:2318194
+
 
 
 
