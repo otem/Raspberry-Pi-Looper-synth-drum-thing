@@ -1,0 +1,58 @@
+#N canvas 518 114 438 491 10;
+#X obj 161 163 r ms;
+#X obj 110 188 delay 500;
+#X msg 66 188 start;
+#X msg 110 210 stop;
+#X obj 208 319 writesf~ 2;
+#X obj 123 101 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 209 170 pack \$1 symbol;
+#X obj 123 75 spigot;
+#X msg 242 47 0;
+#X msg 156 46 1;
+#X text 172 78 but only create the file if there is a loop here, f
+17;
+#X obj 156 22 r lp-done-\$1;
+#X obj 290 146 r songName;
+#X msg 208 194 open Sessions/\$2/stem-\$1.wav;
+#X obj 66 270 tabplay~ loop-\$1;
+#X obj 63 22 r save;
+#X obj 66 244 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 242 22 r clear-\$1;
+#X obj 9 318 s stop;
+#X obj 75 461 s comPortMsg;
+#X msg 75 425 print -sgn_Saving.../;
+#X obj 225 404 symbol;
+#X obj 258 377 r songName;
+#X obj 225 380 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 225 427 print -sgn_\$1/;
+#X connect 0 0 1 1;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 2 0 16 0;
+#X connect 3 0 4 0;
+#X connect 3 0 23 0;
+#X connect 5 0 6 0;
+#X connect 5 0 2 0;
+#X connect 5 0 1 0;
+#X connect 6 0 13 0;
+#X connect 7 0 5 0;
+#X connect 8 0 7 1;
+#X connect 9 0 7 1;
+#X connect 11 0 9 0;
+#X connect 12 0 6 1;
+#X connect 13 0 4 0;
+#X connect 14 0 4 0;
+#X connect 14 0 4 1;
+#X connect 15 0 7 0;
+#X connect 16 0 14 0;
+#X connect 16 0 18 0;
+#X connect 16 0 20 0;
+#X connect 17 0 8 0;
+#X connect 20 0 19 0;
+#X connect 21 0 24 0;
+#X connect 22 0 21 1;
+#X connect 23 0 21 0;
+#X connect 24 0 19 0;

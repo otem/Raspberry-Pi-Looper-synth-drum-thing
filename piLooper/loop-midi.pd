@@ -1,0 +1,33 @@
+#N canvas 737 138 450 300 10;
+#X obj 15 42 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 101 42 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 28 173 1;
+#X msg 101 219 0;
+#X text 26 128 Send LED Data CH10;
+#X obj 189 44 / 63.5;
+#X obj 15 60 s lp-trig-\$1;
+#X obj 101 60 s PreClear-\$1;
+#X obj 189 65 s lp-vol-\$1;
+#X obj 71 172 r mute-\$1;
+#X obj 101 195 r clear-\$1;
+#X obj 28 147 r lp-trig-led-\$1;
+#X obj 15 21 ctlin \$1;
+#X obj 101 21 ctlin \$2;
+#X obj 189 20 ctlin \$3;
+#X obj 28 252 ctlout \$1 26;
+#X obj 118 252 ctlout \$1 10;
+#X connect 0 0 6 0;
+#X connect 1 0 7 0;
+#X connect 2 0 15 0;
+#X connect 2 0 16 0;
+#X connect 3 0 15 0;
+#X connect 3 0 16 0;
+#X connect 5 0 8 0;
+#X connect 9 0 15 0;
+#X connect 10 0 3 0;
+#X connect 11 0 2 0;
+#X connect 12 0 0 0;
+#X connect 13 0 1 0;
+#X connect 14 0 5 0;

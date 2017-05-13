@@ -1,0 +1,10 @@
+#N canvas 514 197 325 184 10;
+#X obj 33 119 soundfiler;
+#X obj 33 68 pack \$1 symbol;
+#X msg 33 93 read Sessions/\$2/stem-\$1.wav loop-\$1;
+#X obj 33 43 r load;
+#X obj 114 45 r songName;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 1;
