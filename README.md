@@ -4,8 +4,11 @@ My first venture into raspberry pi stuff. Running a custom pure data patch I've 
 I've left out the drum samples and Sessions directoroy. To add your own samples just add .wav files to the piLooper directory with names like:
 
 kick_01.wav - kick_24.wav
+
 hh_01.wav - hh_12.wav
+
 snare_01.wav - snare_24.wav
+
 crash_01.wav - crash_04.wav
 
 Or change the sample names to whatever you want in the pd patch. 
