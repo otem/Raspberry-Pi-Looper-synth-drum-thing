@@ -22,6 +22,8 @@ Pi3: https://www.sparkfun.com/products/13825
 
 Teensy 3.6: https://www.sparkfun.com/products/14057
 
+Nintendo DS Screen: https://www.sparkfun.com/products/retired/13631
+
 Display: https://www.pjrc.com/store/display_ili9341.html
 
 Mux: https://www.sparkfun.com/products/9056
